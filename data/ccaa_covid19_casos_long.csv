@@ -1,0 +1,641 @@
+fecha,cod_ine,CCAA,total
+2020-02-27,1,Andalucía,1
+2020-02-28,1,Andalucía,6
+2020-02-29,1,Andalucía,8
+2020-03-01,1,Andalucía,12
+2020-03-02,1,Andalucía,12
+2020-03-03,1,Andalucía,13
+2020-03-04,1,Andalucía,13
+2020-03-05,1,Andalucía,12
+2020-03-06,1,Andalucía,21
+2020-03-07,1,Andalucía,27
+2020-03-08,1,Andalucía,35
+2020-03-09,1,Andalucía,54
+2020-03-10,1,Andalucía,71
+2020-03-11,1,Andalucía,90
+2020-03-12,1,Andalucía,115
+2020-03-13,1,Andalucía,219
+2020-03-14,1,Andalucía,269
+2020-03-15,1,Andalucía,437
+2020-03-16,1,Andalucía,554
+2020-03-17,1,Andalucía,683
+2020-03-18,1,Andalucía,859
+2020-03-19,1,Andalucía,1008
+2020-03-20,1,Andalucía,1287
+2020-03-21,1,Andalucía,1515
+2020-03-22,1,Andalucía,1725
+2020-03-23,1,Andalucía,1961
+2020-03-24,1,Andalucía,2471
+2020-03-25,1,Andalucía,3010
+2020-03-26,1,Andalucía,3406
+2020-03-27,1,Andalucía,3793
+2020-03-28,1,Andalucía,4277
+2020-03-29,1,Andalucía,4682
+2020-02-27,2,Aragón,0
+2020-02-28,2,Aragón,1
+2020-02-29,2,Aragón,1
+2020-03-01,2,Aragón,0
+2020-03-02,2,Aragón,0
+2020-03-03,2,Aragón,0
+2020-03-04,2,Aragón,0
+2020-03-05,2,Aragón,1
+2020-03-06,2,Aragón,6
+2020-03-07,2,Aragón,11
+2020-03-08,2,Aragón,13
+2020-03-09,2,Aragón,13
+2020-03-10,2,Aragón,38
+2020-03-11,2,Aragón,45
+2020-03-12,2,Aragón,64
+2020-03-13,2,Aragón,80
+2020-03-14,2,Aragón,80
+2020-03-15,2,Aragón,147
+2020-03-16,2,Aragón,174
+2020-03-17,2,Aragón,207
+2020-03-18,2,Aragón,226
+2020-03-19,2,Aragón,281
+2020-03-20,2,Aragón,360
+2020-03-21,2,Aragón,424
+2020-03-22,2,Aragón,532
+2020-03-23,2,Aragón,638
+2020-03-24,2,Aragón,758
+2020-03-25,2,Aragón,907
+2020-03-26,2,Aragón,1116
+2020-03-27,2,Aragón,1338
+2020-03-28,2,Aragón,1592
+2020-03-29,2,Aragón,1858
+2020-02-27,3,Asturias,0
+2020-02-28,3,Asturias,0
+2020-02-29,3,Asturias,0
+2020-03-01,3,Asturias,1
+2020-03-02,3,Asturias,1
+2020-03-03,3,Asturias,1
+2020-03-04,3,Asturias,2
+2020-03-05,3,Asturias,5
+2020-03-06,3,Asturias,5
+2020-03-07,3,Asturias,5
+2020-03-08,3,Asturias,7
+2020-03-09,3,Asturias,7
+2020-03-10,3,Asturias,22
+2020-03-11,3,Asturias,32
+2020-03-12,3,Asturias,47
+2020-03-13,3,Asturias,67
+2020-03-14,3,Asturias,92
+2020-03-15,3,Asturias,137
+2020-03-16,3,Asturias,177
+2020-03-17,3,Asturias,193
+2020-03-18,3,Asturias,242
+2020-03-19,3,Asturias,292
+2020-03-20,3,Asturias,344
+2020-03-21,3,Asturias,486
+2020-03-22,3,Asturias,545
+2020-03-23,3,Asturias,594
+2020-03-24,3,Asturias,662
+2020-03-25,3,Asturias,779
+2020-03-26,3,Asturias,841
+2020-03-27,3,Asturias,900
+2020-03-28,3,Asturias,1004
+2020-03-29,3,Asturias,1088
+2020-02-27,4,Baleares,1
+2020-02-28,4,Baleares,1
+2020-02-29,4,Baleares,2
+2020-03-01,4,Baleares,2
+2020-03-02,4,Baleares,2
+2020-03-03,4,Baleares,2
+2020-03-04,4,Baleares,5
+2020-03-05,4,Baleares,6
+2020-03-06,4,Baleares,6
+2020-03-07,4,Baleares,6
+2020-03-08,4,Baleares,8
+2020-03-09,4,Baleares,11
+2020-03-10,4,Baleares,13
+2020-03-11,4,Baleares,16
+2020-03-12,4,Baleares,22
+2020-03-13,4,Baleares,30
+2020-03-14,4,Baleares,28
+2020-03-15,4,Baleares,28
+2020-03-16,4,Baleares,73
+2020-03-17,4,Baleares,92
+2020-03-18,4,Baleares,112
+2020-03-19,4,Baleares,169
+2020-03-20,4,Baleares,203
+2020-03-21,4,Baleares,246
+2020-03-22,4,Baleares,331
+2020-03-23,4,Baleares,400
+2020-03-24,4,Baleares,478
+2020-03-25,4,Baleares,562
+2020-03-26,4,Baleares,660
+2020-03-27,4,Baleares,755
+2020-03-28,4,Baleares,862
+2020-03-29,4,Baleares,958
+2020-02-27,5,Canarias,6
+2020-02-28,5,Canarias,6
+2020-02-29,5,Canarias,6
+2020-03-01,5,Canarias,7
+2020-03-02,5,Canarias,7
+2020-03-03,5,Canarias,7
+2020-03-04,5,Canarias,7
+2020-03-05,5,Canarias,8
+2020-03-06,5,Canarias,11
+2020-03-07,5,Canarias,18
+2020-03-08,5,Canarias,17
+2020-03-09,5,Canarias,22
+2020-03-10,5,Canarias,25
+2020-03-11,5,Canarias,37
+2020-03-12,5,Canarias,51
+2020-03-13,5,Canarias,70
+2020-03-14,5,Canarias,90
+2020-03-15,5,Canarias,109
+2020-03-16,5,Canarias,119
+2020-03-17,5,Canarias,148
+2020-03-18,5,Canarias,181
+2020-03-19,5,Canarias,220
+2020-03-20,5,Canarias,287
+2020-03-21,5,Canarias,348
+2020-03-22,5,Canarias,414
+2020-03-23,5,Canarias,481
+2020-03-24,5,Canarias,557
+2020-03-25,5,Canarias,657
+2020-03-26,5,Canarias,784
+2020-03-27,5,Canarias,878
+2020-03-28,5,Canarias,1025
+2020-03-29,5,Canarias,1125
+2020-02-27,6,Cantabria,0
+2020-02-28,6,Cantabria,0
+2020-02-29,6,Cantabria,0
+2020-03-01,6,Cantabria,1
+2020-03-02,6,Cantabria,10
+2020-03-03,6,Cantabria,10
+2020-03-04,6,Cantabria,10
+2020-03-05,6,Cantabria,10
+2020-03-06,6,Cantabria,10
+2020-03-07,6,Cantabria,10
+2020-03-08,6,Cantabria,12
+2020-03-09,6,Cantabria,12
+2020-03-10,6,Cantabria,12
+2020-03-11,6,Cantabria,12
+2020-03-12,6,Cantabria,16
+2020-03-13,6,Cantabria,29
+2020-03-14,6,Cantabria,31
+2020-03-15,6,Cantabria,51
+2020-03-16,6,Cantabria,58
+2020-03-17,6,Cantabria,58
+2020-03-18,6,Cantabria,68
+2020-03-19,6,Cantabria,83
+2020-03-20,6,Cantabria,144
+2020-03-21,6,Cantabria,215
+2020-03-22,6,Cantabria,282
+2020-03-23,6,Cantabria,347
+2020-03-24,6,Cantabria,425
+2020-03-25,6,Cantabria,510
+2020-03-26,6,Cantabria,671
+2020-03-27,6,Cantabria,810
+2020-03-28,6,Cantabria,937
+2020-03-29,6,Cantabria,1023
+2020-02-27,8,Castilla-La Mancha,0
+2020-02-28,8,Castilla-La Mancha,0
+2020-02-29,8,Castilla-La Mancha,0
+2020-03-01,8,Castilla-La Mancha,1
+2020-03-02,8,Castilla-La Mancha,3
+2020-03-03,8,Castilla-La Mancha,7
+2020-03-04,8,Castilla-La Mancha,12
+2020-03-05,8,Castilla-La Mancha,13
+2020-03-06,8,Castilla-La Mancha,15
+2020-03-07,8,Castilla-La Mancha,15
+2020-03-08,8,Castilla-La Mancha,15
+2020-03-09,8,Castilla-La Mancha,26
+2020-03-10,8,Castilla-La Mancha,39
+2020-03-11,8,Castilla-La Mancha,71
+2020-03-12,8,Castilla-La Mancha,115
+2020-03-13,8,Castilla-La Mancha,194
+2020-03-14,8,Castilla-La Mancha,289
+2020-03-15,8,Castilla-La Mancha,401
+2020-03-16,8,Castilla-La Mancha,567
+2020-03-17,8,Castilla-La Mancha,567
+2020-03-18,8,Castilla-La Mancha,675
+2020-03-19,8,Castilla-La Mancha,801
+2020-03-20,8,Castilla-La Mancha,1044
+2020-03-21,8,Castilla-La Mancha,1423
+2020-03-22,8,Castilla-La Mancha,1819
+2020-03-23,8,Castilla-La Mancha,2078
+2020-03-24,8,Castilla-La Mancha,2465
+2020-03-25,8,Castilla-La Mancha,2780
+2020-03-26,8,Castilla-La Mancha,3383
+2020-03-27,8,Castilla-La Mancha,3934
+2020-03-28,8,Castilla-La Mancha,4512
+2020-03-29,8,Castilla-La Mancha,5246
+2020-02-27,7,Castilla y León,0
+2020-02-28,7,Castilla y León,2
+2020-02-29,7,Castilla y León,2
+2020-03-01,7,Castilla y León,3
+2020-03-02,7,Castilla y León,3
+2020-03-03,7,Castilla y León,8
+2020-03-04,7,Castilla y León,11
+2020-03-05,7,Castilla y León,11
+2020-03-06,7,Castilla y León,14
+2020-03-07,7,Castilla y León,14
+2020-03-08,7,Castilla y León,22
+2020-03-09,7,Castilla y León,23
+2020-03-10,7,Castilla y León,56
+2020-03-11,7,Castilla y León,71
+2020-03-12,7,Castilla y León,92
+2020-03-13,7,Castilla y León,169
+2020-03-14,7,Castilla y León,223
+2020-03-15,7,Castilla y León,292
+2020-03-16,7,Castilla y León,334
+2020-03-17,7,Castilla y León,431
+2020-03-18,7,Castilla y León,668
+2020-03-19,7,Castilla y León,868
+2020-03-20,7,Castilla y León,1147
+2020-03-21,7,Castilla y León,1466
+2020-03-22,7,Castilla y León,1744
+2020-03-23,7,Castilla y León,2055
+2020-03-24,7,Castilla y León,2460
+2020-03-25,7,Castilla y León,2940
+2020-03-26,7,Castilla y León,3488
+2020-03-27,7,Castilla y León,4132
+2020-03-28,7,Castilla y León,4791
+2020-03-29,7,Castilla y León,5414
+2020-02-27,9,Cataluña,2
+2020-02-28,9,Cataluña,3
+2020-02-29,9,Cataluña,5
+2020-03-01,9,Cataluña,6
+2020-03-02,9,Cataluña,15
+2020-03-03,9,Cataluña,15
+2020-03-04,9,Cataluña,15
+2020-03-05,9,Cataluña,24
+2020-03-06,9,Cataluña,24
+2020-03-07,9,Cataluña,24
+2020-03-08,9,Cataluña,49
+2020-03-09,9,Cataluña,75
+2020-03-10,9,Cataluña,124
+2020-03-11,9,Cataluña,156
+2020-03-12,9,Cataluña,260
+2020-03-13,9,Cataluña,316
+2020-03-14,9,Cataluña,509
+2020-03-15,9,Cataluña,715
+2020-03-16,9,Cataluña,903
+2020-03-17,9,Cataluña,1394
+2020-03-18,9,Cataluña,1866
+2020-03-19,9,Cataluña,2702
+2020-03-20,9,Cataluña,3270
+2020-03-21,9,Cataluña,4203
+2020-03-22,9,Cataluña,4704
+2020-03-23,9,Cataluña,5925
+2020-03-24,9,Cataluña,7864
+2020-03-25,9,Cataluña,9937
+2020-03-26,9,Cataluña,11592
+2020-03-27,9,Cataluña,12940
+2020-03-28,9,Cataluña,14263
+2020-03-29,9,Cataluña,15026
+2020-02-27,18,Ceuta,0
+2020-02-28,18,Ceuta,0
+2020-02-29,18,Ceuta,0
+2020-03-01,18,Ceuta,0
+2020-03-02,18,Ceuta,0
+2020-03-03,18,Ceuta,0
+2020-03-04,18,Ceuta,0
+2020-03-05,18,Ceuta,0
+2020-03-06,18,Ceuta,0
+2020-03-07,18,Ceuta,0
+2020-03-08,18,Ceuta,0
+2020-03-09,18,Ceuta,0
+2020-03-10,18,Ceuta,0
+2020-03-11,18,Ceuta,0
+2020-03-12,18,Ceuta,0
+2020-03-13,18,Ceuta,0
+2020-03-14,18,Ceuta,0
+2020-03-15,18,Ceuta,1
+2020-03-16,18,Ceuta,1
+2020-03-17,18,Ceuta,1
+2020-03-18,18,Ceuta,1
+2020-03-19,18,Ceuta,1
+2020-03-20,18,Ceuta,5
+2020-03-21,18,Ceuta,5
+2020-03-22,18,Ceuta,5
+2020-03-23,18,Ceuta,6
+2020-03-24,18,Ceuta,6
+2020-03-25,18,Ceuta,9
+2020-03-26,18,Ceuta,10
+2020-03-27,18,Ceuta,17
+2020-03-28,18,Ceuta,17
+2020-03-29,18,Ceuta,21
+2020-02-27,10,C. Valenciana,2
+2020-02-28,10,C. Valenciana,8
+2020-02-29,10,C. Valenciana,10
+2020-03-01,10,C. Valenciana,15
+2020-03-02,10,C. Valenciana,15
+2020-03-03,10,C. Valenciana,15
+2020-03-04,10,C. Valenciana,19
+2020-03-05,10,C. Valenciana,19
+2020-03-06,10,C. Valenciana,30
+2020-03-07,10,C. Valenciana,30
+2020-03-08,10,C. Valenciana,37
+2020-03-09,10,C. Valenciana,37
+2020-03-10,10,C. Valenciana,50
+2020-03-11,10,C. Valenciana,65
+2020-03-12,10,C. Valenciana,76
+2020-03-13,10,C. Valenciana,94
+2020-03-14,10,C. Valenciana,130
+2020-03-15,10,C. Valenciana,409
+2020-03-16,10,C. Valenciana,409
+2020-03-17,10,C. Valenciana,541
+2020-03-18,10,C. Valenciana,726
+2020-03-19,10,C. Valenciana,921
+2020-03-20,10,C. Valenciana,1105
+2020-03-21,10,C. Valenciana,1363
+2020-03-22,10,C. Valenciana,1604
+2020-03-23,10,C. Valenciana,1901
+2020-03-24,10,C. Valenciana,2167
+2020-03-25,10,C. Valenciana,2616
+2020-03-26,10,C. Valenciana,3200
+2020-03-27,10,C. Valenciana,3532
+2020-03-28,10,C. Valenciana,4034
+2020-03-29,10,C. Valenciana,4784
+2020-02-27,11,Extremadura,0
+2020-02-28,11,Extremadura,0
+2020-02-29,11,Extremadura,0
+2020-03-01,11,Extremadura,4
+2020-03-02,11,Extremadura,6
+2020-03-03,11,Extremadura,6
+2020-03-04,11,Extremadura,6
+2020-03-05,11,Extremadura,6
+2020-03-06,11,Extremadura,6
+2020-03-07,11,Extremadura,6
+2020-03-08,11,Extremadura,6
+2020-03-09,11,Extremadura,7
+2020-03-10,11,Extremadura,8
+2020-03-11,11,Extremadura,9
+2020-03-12,11,Extremadura,19
+2020-03-13,11,Extremadura,39
+2020-03-14,11,Extremadura,66
+2020-03-15,11,Extremadura,95
+2020-03-16,11,Extremadura,111
+2020-03-17,11,Extremadura,153
+2020-03-18,11,Extremadura,194
+2020-03-19,11,Extremadura,241
+2020-03-20,11,Extremadura,297
+2020-03-21,11,Extremadura,354
+2020-03-22,11,Extremadura,384
+2020-03-23,11,Extremadura,493
+2020-03-24,11,Extremadura,636
+2020-03-25,11,Extremadura,742
+2020-03-26,11,Extremadura,969
+2020-03-27,11,Extremadura,1231
+2020-03-28,11,Extremadura,1394
+2020-03-29,11,Extremadura,1456
+2020-02-27,12,Galicia,0
+2020-02-28,12,Galicia,0
+2020-02-29,12,Galicia,0
+2020-03-01,12,Galicia,0
+2020-03-02,12,Galicia,0
+2020-03-03,12,Galicia,0
+2020-03-04,12,Galicia,1
+2020-03-05,12,Galicia,1
+2020-03-06,12,Galicia,3
+2020-03-07,12,Galicia,3
+2020-03-08,12,Galicia,5
+2020-03-09,12,Galicia,6
+2020-03-10,12,Galicia,22
+2020-03-11,12,Galicia,39
+2020-03-12,12,Galicia,35
+2020-03-13,12,Galicia,85
+2020-03-14,12,Galicia,115
+2020-03-15,12,Galicia,195
+2020-03-16,12,Galicia,245
+2020-03-17,12,Galicia,292
+2020-03-18,12,Galicia,341
+2020-03-19,12,Galicia,453
+2020-03-20,12,Galicia,578
+2020-03-21,12,Galicia,739
+2020-03-22,12,Galicia,915
+2020-03-23,12,Galicia,1208
+2020-03-24,12,Galicia,1415
+2020-03-25,12,Galicia,1653
+2020-03-26,12,Galicia,1915
+2020-03-27,12,Galicia,2322
+2020-03-28,12,Galicia,2772
+2020-03-29,12,Galicia,3139
+2020-02-27,13,Madrid,4
+2020-02-28,13,Madrid,5
+2020-02-29,13,Madrid,8
+2020-03-01,13,Madrid,10
+2020-03-02,13,Madrid,29
+2020-03-03,13,Madrid,49
+2020-03-04,13,Madrid,70
+2020-03-05,13,Madrid,90
+2020-03-06,13,Madrid,137
+2020-03-07,13,Madrid,174
+2020-03-08,13,Madrid,202
+2020-03-09,13,Madrid,469
+2020-03-10,13,Madrid,782
+2020-03-11,13,Madrid,1024
+2020-03-12,13,Madrid,1388
+2020-03-13,13,Madrid,1990
+2020-03-14,13,Madrid,2940
+2020-03-15,13,Madrid,3544
+2020-03-16,13,Madrid,4165
+2020-03-17,13,Madrid,4871
+2020-03-18,13,Madrid,5637
+2020-03-19,13,Madrid,6777
+2020-03-20,13,Madrid,7165
+2020-03-21,13,Madrid,8921
+2020-03-22,13,Madrid,9702
+2020-03-23,13,Madrid,10575
+2020-03-24,13,Madrid,12352
+2020-03-25,13,Madrid,14597
+2020-03-26,13,Madrid,17166
+2020-03-27,13,Madrid,19243
+2020-03-28,13,Madrid,21520
+2020-03-29,13,Madrid,22677
+2020-02-27,19,Melilla,0
+2020-02-28,19,Melilla,0
+2020-02-29,19,Melilla,0
+2020-03-01,19,Melilla,0
+2020-03-02,19,Melilla,0
+2020-03-03,19,Melilla,0
+2020-03-04,19,Melilla,0
+2020-03-05,19,Melilla,0
+2020-03-06,19,Melilla,0
+2020-03-07,19,Melilla,0
+2020-03-08,19,Melilla,0
+2020-03-09,19,Melilla,0
+2020-03-10,19,Melilla,0
+2020-03-11,19,Melilla,0
+2020-03-12,19,Melilla,0
+2020-03-13,19,Melilla,2
+2020-03-14,19,Melilla,3
+2020-03-15,19,Melilla,8
+2020-03-16,19,Melilla,8
+2020-03-17,19,Melilla,17
+2020-03-18,19,Melilla,20
+2020-03-19,19,Melilla,23
+2020-03-20,19,Melilla,24
+2020-03-21,19,Melilla,25
+2020-03-22,19,Melilla,25
+2020-03-23,19,Melilla,28
+2020-03-24,19,Melilla,28
+2020-03-25,19,Melilla,38
+2020-03-26,19,Melilla,39
+2020-03-27,19,Melilla,42
+2020-03-28,19,Melilla,45
+2020-03-29,19,Melilla,48
+2020-02-27,14,Murcia,0
+2020-02-28,14,Murcia,0
+2020-02-29,14,Murcia,0
+2020-03-01,14,Murcia,0
+2020-03-02,14,Murcia,0
+2020-03-03,14,Murcia,0
+2020-03-04,14,Murcia,0
+2020-03-05,14,Murcia,0
+2020-03-06,14,Murcia,0
+2020-03-07,14,Murcia,0
+2020-03-08,14,Murcia,1
+2020-03-09,14,Murcia,4
+2020-03-10,14,Murcia,9
+2020-03-11,14,Murcia,11
+2020-03-12,14,Murcia,26
+2020-03-13,14,Murcia,35
+2020-03-14,14,Murcia,47
+2020-03-15,14,Murcia,71
+2020-03-16,14,Murcia,77
+2020-03-17,14,Murcia,97
+2020-03-18,14,Murcia,122
+2020-03-19,14,Murcia,167
+2020-03-20,14,Murcia,204
+2020-03-21,14,Murcia,240
+2020-03-22,14,Murcia,296
+2020-03-23,14,Murcia,345
+2020-03-24,14,Murcia,385
+2020-03-25,14,Murcia,477
+2020-03-26,14,Murcia,596
+2020-03-27,14,Murcia,714
+2020-03-28,14,Murcia,802
+2020-03-29,14,Murcia,872
+2020-02-27,15,Navarra,0
+2020-02-28,15,Navarra,0
+2020-02-29,15,Navarra,0
+2020-03-01,15,Navarra,1
+2020-03-02,15,Navarra,1
+2020-03-03,15,Navarra,1
+2020-03-04,15,Navarra,3
+2020-03-05,15,Navarra,3
+2020-03-06,15,Navarra,3
+2020-03-07,15,Navarra,3
+2020-03-08,15,Navarra,3
+2020-03-09,15,Navarra,3
+2020-03-10,15,Navarra,12
+2020-03-11,15,Navarra,46
+2020-03-12,15,Navarra,73
+2020-03-13,15,Navarra,130
+2020-03-14,15,Navarra,146
+2020-03-15,15,Navarra,183
+2020-03-16,15,Navarra,274
+2020-03-17,15,Navarra,313
+2020-03-18,15,Navarra,386
+2020-03-19,15,Navarra,482
+2020-03-20,15,Navarra,554
+2020-03-21,15,Navarra,664
+2020-03-22,15,Navarra,794
+2020-03-23,15,Navarra,886
+2020-03-24,15,Navarra,1014
+2020-03-25,15,Navarra,1197
+2020-03-26,15,Navarra,1411
+2020-03-27,15,Navarra,1641
+2020-03-28,15,Navarra,1829
+2020-03-29,15,Navarra,2011
+2020-02-27,16,País Vasco,0
+2020-02-28,16,País Vasco,0
+2020-02-29,16,País Vasco,2
+2020-03-01,16,País Vasco,3
+2020-03-02,16,País Vasco,9
+2020-03-03,16,País Vasco,13
+2020-03-04,16,País Vasco,17
+2020-03-05,16,País Vasco,17
+2020-03-06,16,País Vasco,45
+2020-03-07,16,País Vasco,45
+2020-03-08,16,País Vasco,102
+2020-03-09,16,País Vasco,149
+2020-03-10,16,País Vasco,195
+2020-03-11,16,País Vasco,225
+2020-03-12,16,País Vasco,346
+2020-03-13,16,País Vasco,417
+2020-03-14,16,País Vasco,417
+2020-03-15,16,País Vasco,630
+2020-03-16,16,País Vasco,630
+2020-03-17,16,País Vasco,765
+2020-03-18,16,País Vasco,973
+2020-03-19,16,País Vasco,1190
+2020-03-20,16,País Vasco,1465
+2020-03-21,16,País Vasco,1725
+2020-03-22,16,País Vasco,2097
+2020-03-23,16,País Vasco,2421
+2020-03-24,16,País Vasco,2728
+2020-03-25,16,País Vasco,3271
+2020-03-26,16,País Vasco,3946
+2020-03-27,16,País Vasco,4601
+2020-03-28,16,País Vasco,5136
+2020-03-29,16,País Vasco,5740
+2020-02-27,17,La Rioja,0
+2020-02-28,17,La Rioja,0
+2020-02-29,17,La Rioja,0
+2020-03-01,17,La Rioja,0
+2020-03-02,17,La Rioja,1
+2020-03-03,17,La Rioja,3
+2020-03-04,17,La Rioja,7
+2020-03-05,17,La Rioja,11
+2020-03-06,17,La Rioja,29
+2020-03-07,17,La Rioja,39
+2020-03-08,17,La Rioja,55
+2020-03-09,17,La Rioja,81
+2020-03-10,17,La Rioja,144
+2020-03-11,17,La Rioja,179
+2020-03-12,17,La Rioja,205
+2020-03-13,17,La Rioja,243
+2020-03-14,17,La Rioja,278
+2020-03-15,17,La Rioja,300
+2020-03-16,17,La Rioja,312
+2020-03-17,17,La Rioja,355
+2020-03-18,17,La Rioja,419
+2020-03-19,17,La Rioja,468
+2020-03-20,17,La Rioja,497
+2020-03-21,17,La Rioja,564
+2020-03-22,17,La Rioja,654
+2020-03-23,17,La Rioja,747
+2020-03-24,17,La Rioja,802
+2020-03-25,17,La Rioja,928
+2020-03-26,17,La Rioja,995
+2020-03-27,17,La Rioja,1236
+2020-03-28,17,La Rioja,1436
+2020-03-29,17,La Rioja,1629
+2020-02-27,0,Total,16
+2020-02-28,0,Total,32
+2020-02-29,0,Total,44
+2020-03-01,0,Total,66
+2020-03-02,0,Total,114
+2020-03-03,0,Total,150
+2020-03-04,0,Total,198
+2020-03-05,0,Total,237
+2020-03-06,0,Total,365
+2020-03-07,0,Total,430
+2020-03-08,0,Total,589
+2020-03-09,0,Total,999
+2020-03-10,0,Total,1622
+2020-03-11,0,Total,2128
+2020-03-12,0,Total,2950
+2020-03-13,0,Total,4209
+2020-03-14,0,Total,5753
+2020-03-15,0,Total,7753
+2020-03-16,0,Total,9191
+2020-03-17,0,Total,11178
+2020-03-18,0,Total,13716
+2020-03-19,0,Total,17147
+2020-03-20,0,Total,19980
+2020-03-21,0,Total,24926
+2020-03-22,0,Total,28572
+2020-03-23,0,Total,33089
+2020-03-24,0,Total,39673
+2020-03-25,0,Total,47610
+2020-03-26,0,Total,56188
+2020-03-27,0,Total,64059
+2020-03-28,0,Total,72248
+2020-03-29,0,Total,78797
