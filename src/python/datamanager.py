@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-data_path = os.path.join('..', 'data')
+data_path = os.path.join('..', '..', 'data')
 
 d_ccaa_name_population = {
     'Andalucía': 8414240,
