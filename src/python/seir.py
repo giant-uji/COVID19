@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+from src.python.plot import plot_seir
 
 # S'(t) = -betaS(t)I(t)/N
 # E'(t) = betaS(t)I(t)/N - sigmaE(t)
@@ -10,7 +10,6 @@ import matplotlib.pyplot as plt
 # E(t) --> Expuestas
 # I(t) --> Infectados
 # R(t) --> Recuperados
-from src.plot import plot_seir
 
 beta = 1          # Tasa de transmisión, probabilidad de que un susceptible se infecte al entrar en contacto con un infectado.
 gamma = 1 / 5     # tasa de recuperación, su inversa es el tiempo medio de recuperación.

@@ -1,6 +1,6 @@
 import pandas as pd
-import src.datamanager as dm
-from src.plot import plot_dataframe, plot_spain
+import src.python.datamanager as dm
+from src.python.plot import plot_dataframe, plot_spain
 
 # spain_covid19_url = 'https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/nacional_covid19.csv'
 spain_c19_casos_url = 'https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_casos_long.csv'
