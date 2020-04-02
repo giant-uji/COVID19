@@ -37,14 +37,14 @@ def plot_spain(data, x, features, title='confirmed cases by region'):
             ax.plot(x_values, y_values)
         ax.set_title(region)
 
-
     plt.suptitle(title)
     plt.show()
 
 
-def plot_seir(data, features):
-    fig, ax = plt.subplots(1, 1, figsize=(10, 10), dpi=200)
+def plot_seir(data, features, title):
+    fig, ax = plt.subplots(1, 1, figsize=(10, 5), dpi=200)
     for feature in features:
         ax.plot(data[feature], label=feature)
     plt.legend()
+    plt.suptitle(title)
     plt.show()
