@@ -25,6 +25,8 @@ This script `base.r` generates forecasts for all countries and CV:
 source('base.r')
 ```
 
+\newpage
+
 ## Comunitat Valenciana: Impact of NPIs
 
 ```{r, out.width="1.0\\linewidth", include=TRUE, fig.align="center", fig.cap=c("Comunitat Valenciana"), echo=FALSE}
@@ -32,11 +34,27 @@ fname = paste0('figures/Comunitat_Valenciana_three_pannel_', filename, '.Rdata.p
 knitr::include_graphics(fname)
 ```
 
-\newpage
 ## Comunitat Valenciana: Deaths forecast
 
-```{r, out.width="1.00\\linewidth", include=TRUE, fig.align="center", fig.cap=c("CV Deaths forecast"), echo=FALSE}
+```{r, out.width="0.75\\linewidth", include=TRUE, fig.align="center", fig.cap=c("CV Deaths forecast"), echo=FALSE}
 fname = paste0('figures/Comunitat_Valenciana_forecast_', filename, '.Rdata.pdf')
+knitr::include_graphics(fname)
+```
+
+
+\newpage
+## Spain: Impact of NPIs
+
+```{r, out.width="1.0\\linewidth", include=TRUE, fig.align="center", fig.cap=c("Spain"), echo=FALSE}
+fname = paste0('figures/Spain_three_pannel_', filename, '.Rdata.pdf')
+knitr::include_graphics(fname)
+```
+
+\newpage
+## Spain: Deaths forecast
+
+```{r, out.width="0.75\\linewidth", include=TRUE, fig.align="center", fig.cap=c("Spain deaths forecast"), echo=FALSE}
+fname = paste0('figures/Spain_forecast_', filename, '.Rdata.pdf')
 knitr::include_graphics(fname)
 ```
 
