@@ -300,26 +300,29 @@ runSim = function(HPop,pat_info,control_info,mobmat,day_list,recrate_values,expo
     }
   }
 
-  all_spread = matrix(0,length(day_list),length(HPop$nInf))
-  colnames(all_spread) = HPop$names
+  all_spread <- matrix(0, length(day_list), 4 * length(HPop$nInf))
+  colnames(all_spread) = c(paste0('inf_', HPop$names), paste0('rec_', HPop$names), 
+                           paste0('exp_', HPop$names), paste0('sus_', HPop$names))
   #print(all_dates)
-  for (current_day in 1:length(day_list)){
-    for (current_TS in 1:TSinday){
-    print("Day: ")
-	print(day_list[current_day])
-    HPop = recoveryTimeStep(HPop,recrate_values,day_list[current_day])
-    HPop = exposedtoinfTimeStep(HPop,1/exposepd)
-    HPop = exposedTimeStep(HPop,exposerate_df, day_list[current_day], exposed_pop_inf_prop)
-    
-    HPop = movementTimeStep(HPop,mobmat,day_list[current_day],control_info,prob_move_per_TS)
+  for (current_day in 1:length(day_list)) {
+    for (current_TS in 1:TSinday) {
+      # print("Day: ")
+  	  # print(day_list[current_day])
+      HPop = recoveryTimeStep(HPop, recrate_values, day_list[current_day])
+      HPop = exposedtoinfTimeStep(HPop, 1 / exposepd)
+      HPop = exposedTimeStep(HPop, exposerate_df, day_list[current_day], exposed_pop_inf_prop)
+      HPop = movementTimeStep(HPop, mobmat, day_list[current_day], control_info, prob_move_per_TS)
     }
     #save(HPop,file=paste(current_day,".RData"))
     epidemic_curve = rbind(epidemic_curve,data.frame(Date = day_list[current_day], inf = sum(HPop$nInf)))
-    all_spread[current_day,] = HPop$nInf
+    all_spread[current_day, 1:3] <- HPop$nInf
+    all_spread[current_day, 4:6] <- HPop$nRec
+    all_spread[current_day, 7:9] <- HPop$nExp
+    all_spread[current_day, 10:12] <- HPop$nTotal - HPop$nInf - HPop$nRec - HPop$nExp
     
   }
   all_spread_2 = data.frame(dates = day_list,runday = 1:length(day_list))
-  all_spread_2= cbind(all_spread_2,all_spread)
+  all_spread_2 = cbind(all_spread_2,all_spread)
   list(HPop = HPop,epidemic_curve = epidemic_curve,all_spread=all_spread_2)
 }
 

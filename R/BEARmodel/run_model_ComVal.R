@@ -37,7 +37,7 @@ pat_locator$pop = c(575470, 2540707, 1825332)
 
 # number of infected
 # start infection in Comunidad Valenciana
-patnInf = c(5, 25, 5)
+patnInf = c(20, 100, 35)
 
 # recovery rate variable for each available day 
 recover_df = data.frame(date=seq(from=min(movement_data$date), to=max(movement_data$date), by="days"), recrate = recrate)
@@ -47,9 +47,9 @@ relative_move_data = data.frame()
  
 relative_move_data = read.table("zeroMobility_CV_alt.csv", sep=",", header=T)
 
-# simulate 48 days of data 
-for (t in 1:4) {
-  relative_move_data <- rbind(relative_move_data, relative_move_data)
+# simulate 120 days of data 
+for (t in 1:39) {
+  relative_move_data <- rbind(relative_move_data, relative_move_data[1:18,])
 }
 d <- 1
 for (i in seq(1, nrow(relative_move_data), by=6)) {
@@ -113,11 +113,57 @@ results[[run]] = HPop_update3$all_spread
 onerun3 <- data.frame(results[run])
 
 # plot infected 
-plot(input_dates, onerun1$X3, col="blue", type='l', xlab="date", ylab="infected")
-lines(input_dates, onerun2$X3, col="dark red", lty=3)
-lines(input_dates, onerun3$X3, col="green", lty=3)
-legend("center", legend=c("Movilidad normal", "Movilidad media", "Sin movilidad"), 
-       col=c("blue", "dark red", "green"), lty=1:3, cex=0.8)
+# plot(input_dates, onerun1$inf_1+onerun1$inf_2+onerun1$inf_3, col="blue", type='l', xlab="date", ylab="infected")
+# lines(input_dates, onerun2$inf_1+onerun2$inf_2+onerun2$inf_3, col="dark red", lty=3)
+# lines(input_dates, onerun3$inf_1+onerun3$inf_2+onerun3$inf_3, col="green", lty=3)
+# legend("topleft", legend=c("Movilidad normal", "Movilidad media", "Sin movilidad"), 
+#        col=c("blue", "dark red", "green"), lty=1:3, cex=0.8)
+
+# plot SEIR 
+# plot(input_dates, onerun1$inf_1 + onerun1$inf_2 + onerun1$inf_3, col="blue", type='l', 
+#      xlab="date", ylab="population", ylim = c(0, 5000000))
+# lines(input_dates, onerun1$exp_1 + onerun1$exp_2 + onerun1$exp_3, col="red", lty=1)
+# lines(input_dates, onerun1$rec_1 + onerun1$rec_2 + onerun1$rec_3, col="green", lty=1)
+# lines(input_dates, onerun1$sus_1 + onerun1$sus_2 + onerun1$sus_3, col="magenta", lty=1)
+# legend("left", legend=c("infectious", "exposed", "recovered", "susceptible"), 
+#        col=c("blue", "red", "green", "magenta"), lty=1)
+
+par(mfrow=c(2,2))
+
+plot(input_dates, onerun1$inf_1 + onerun1$inf_2 + onerun1$inf_3, col="blue", type='l', 
+     xlab="date", ylab="population", ylim = c(0, 5000000), main="Comunidad Valenciana")
+lines(input_dates, onerun1$exp_1 + onerun1$exp_2 + onerun1$exp_3, col="red", lty=1)
+lines(input_dates, onerun1$rec_1 + onerun1$rec_2 + onerun1$rec_3, col="green", lty=1)
+lines(input_dates, onerun1$sus_1 + onerun1$sus_2 + onerun1$sus_3, col="magenta", lty=1)
+legend("left", legend=c("infectious", "exposed", "recovered", "susceptible"), 
+       col=c("blue", "red", "green", "magenta"), lty=1, cex=0.7)
+
+
+plot(input_dates, onerun1$inf_1, col="blue", type='l', 
+     xlab="date", ylab="population", ylim = c(0, 600000), main="Castellón")
+lines(input_dates, onerun1$exp_1, col="red", lty=1)
+lines(input_dates, onerun1$rec_1, col="green", lty=1)
+lines(input_dates, onerun1$sus_1, col="magenta", lty=1)
+legend("left", legend=c("infectious", "exposed", "recovered", "susceptible"), 
+       col=c("blue", "red", "green", "magenta"), lty=1, cex=0.7)
+
+
+plot(input_dates, onerun1$inf_2, col="blue", type='l', 
+     xlab="date", ylab="population", ylim = c(0, 2600000), main="Valencia")
+lines(input_dates, onerun1$exp_2, col="red", lty=1)
+lines(input_dates, onerun1$rec_2, col="green", lty=1)
+lines(input_dates, onerun1$sus_2, col="magenta", lty=1)
+legend("left", legend=c("infectious", "exposed", "recovered", "susceptible"), 
+       col=c("blue", "red", "green", "magenta"), lty=1, cex=0.7)
+
+
+plot(input_dates, onerun1$inf_3, col="blue", type='l', 
+     xlab="date", ylab="population", ylim = c(0, 2000000), main="Alicante")
+lines(input_dates, onerun1$exp_3, col="red", lty=1)
+lines(input_dates, onerun1$rec_3, col="green", lty=1)
+lines(input_dates, onerun1$sus_3, col="magenta", lty=1)
+legend("left", legend=c("infectious", "exposed", "recovered", "susceptible"), 
+       col=c("blue", "red", "green", "magenta"), lty=1, cex=0.7)
 
 
 # for (run in 1:2){

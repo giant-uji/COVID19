@@ -10,9 +10,9 @@ library(lubridate)
 # 3 days data
 movement_data = read.table("testmove_CV_normalmob_alt.csv",sep=",",header=T)
 
-# simulate 48 days of data 
-for (t in 1:4) {
-  movement_data <- rbind(movement_data, movement_data)
+# simulate 120 days of data 
+for (t in 1:39) {
+  movement_data <- rbind(movement_data, movement_data[1:18,])
 }
 d <- 1
 for (i in seq(1, nrow(movement_data), by=6)) {
