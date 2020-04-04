@@ -36,7 +36,7 @@ knitr::include_graphics(fname)
 
 ## Comunitat Valenciana: Deaths forecast
 
-```{r, out.width="0.75\\linewidth", include=TRUE, fig.align="center", fig.cap=c("CV Deaths forecast"), echo=FALSE}
+```{r, out.width="0.90\\linewidth", include=TRUE, fig.align="center", fig.cap=c("CV Deaths forecast"), echo=FALSE}
 fname = paste0('figures/Comunitat_Valenciana_forecast_', filename, '.Rdata.pdf')
 knitr::include_graphics(fname)
 ```
@@ -50,10 +50,9 @@ fname = paste0('figures/Spain_three_pannel_', filename, '.Rdata.pdf')
 knitr::include_graphics(fname)
 ```
 
-\newpage
 ## Spain: Deaths forecast
 
-```{r, out.width="0.75\\linewidth", include=TRUE, fig.align="center", fig.cap=c("Spain deaths forecast"), echo=FALSE}
+```{r, out.width="0.90\\linewidth", include=TRUE, fig.align="center", fig.cap=c("Spain deaths forecast"), echo=FALSE}
 fname = paste0('figures/Spain_forecast_', filename, '.Rdata.pdf')
 knitr::include_graphics(fname)
 ```

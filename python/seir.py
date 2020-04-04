@@ -57,4 +57,4 @@ for day in range(days_before, days_total):
     print(St, Et, It, Rt)
 
 df = pd.DataFrame(model_evolution, columns=['S(t)', 'E(t)', 'I(t)', 'R(t)'])
-plot_seir(data=df, features=['S(t)', 'E(t)', 'I(t)', 'R(t)'])
+plot_seir(data=df, features=['S(t)', 'E(t)', 'I(t)', 'R(t)'], title='')
