@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 from scipy.optimize import minimize
 
 
-def plot_seir(df_seir, df_data, npi_data, zoom=None, title=''):
+def plot_seir(df_seir, df_data, npi_data, alt_model=None, zoom=None, title=''):
     cmap = plt.get_cmap('Set1')
     fig, ax = plt.subplots(1, 1, figsize=(10, 5), dpi=200)
     dates = [datetime.strptime(d, '%Y-%m-%d') for d in df_seir['date']]
@@ -31,6 +31,11 @@ def plot_seir(df_seir, df_data, npi_data, zoom=None, title=''):
     ax.plot(dates, df_seir['exposed'], linestyle='-', linewidth=4, color=cmap(3), alpha=0.25, label='Exposed')
     ax.plot(dates, df_seir['infectious'], linestyle='-', linewidth=4, color=cmap(0), alpha=0.25, label='Infectious')
     ax.plot(dates, df_seir['recovered'], linestyle='-', linewidth=4, color=cmap(2), alpha=0.25, label='Recovered')
+
+    # plot alternative model (only infected)
+    if alt_model is not None:
+        ax.plot(dates, alt_model['infectious'], linestyle=':', linewidth=4, color=cmap(0), alpha=0.25,
+                label='Infectious (without NPIs)')
 
     # plot real data
     ax.plot(dates, df_data['recovered'] + df_data['deaths'], linestyle='-', color=cmap(2), alpha=0.9,
@@ -51,15 +56,15 @@ def plot_seir(df_seir, df_data, npi_data, zoom=None, title=''):
         ax.axvline(date, linestyle='--', color='k', alpha=0.5)
         ax.text(date, height, npi, {'ha': 'right', 'va': 'top'}, rotation=90, size=8)
 
-    ax.set_xlabel('population')
-    ax.set_ylabel('date')
+    ax.set_ylabel('population')
+    ax.set_xlabel('date')
     ax.set_title(title)
 
     plt.legend(fontsize=8)
     plt.show()
 
 
-def run_model(data, alphas, inf0, beta0, rect):
+def run_model(data, alphas, inf0, beta0, rect, use_npis=True):
     # Tasa de transmisión, probabilidad de que un susceptible se infecte al entrar en contacto con un infectado.
     beta = beta0
 
@@ -101,7 +106,7 @@ def run_model(data, alphas, inf0, beta0, rect):
         dE = ((betat * St * It) / N - (sigma * Et)) * dt
         dI = ((sigma * Et) - (gamma * It)) * dt
         dR = (gamma * It) * dt
-        if npi_stage < len(npi_dates) and day >= npi_dates[npi_stage]:
+        if use_npis and npi_stage < len(npi_dates) and day >= npi_dates[npi_stage]:
             npi_stage += 1
             betat = beta * (1 - alphas[npi_stage]) * (1 - 0.05 * It / N) ** k[npi_stage]
 
@@ -158,7 +163,7 @@ def err_func(x):
 # method='SLSQP'        ->  10807     (with bounds)
 # method='trust-constr' ->  11727     (with bounds)
 
-method = 'BFGS'
+method = 'SLSQP'
 result = minimize(fun=err_func, x0=np.array([0.2, 0.4, 0.8, 0.9, 10, 1.0, 25.0]), method=method,
                   bounds=[(0.0, 0.2), (0.2, 0.5), (0.5, 1.0), (0.5, 1.0), (1, 100), (0.5, 5), (15.0, 30.0)])
 print(result)
@@ -167,6 +172,7 @@ _inf0 = result.x[4]
 _beta0 = result.x[5]
 _rect0 = result.x[6]
 df_model_evolution = run_model(df_cv, alphas=_alphas, inf0=_inf0, beta0=_beta0, rect=_rect0)
+df_alt_model = run_model(df_cv, alphas=[0, 0, 0, 0, 0], inf0=_inf0, beta0=_beta0, rect=_rect0)
 print(eval_error(df_cv, df_model_evolution))
-plot_seir(df_seir=df_model_evolution, df_data=df_cv, npi_data=npi_dict, zoom=[(0, 40), (0, 10000)],
-          title=f'SEIR model and real data [fit method: {method}]')
+plot_seir(df_seir=df_model_evolution, df_data=df_cv, npi_data=npi_dict, alt_model=df_alt_model,
+          zoom=[(0, 40), (0, 20000)], title=f'SEIR model and real data [fit method: {method}]')

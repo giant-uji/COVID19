@@ -9,6 +9,7 @@ spain_c19_muertes_url = 'https://raw.githubusercontent.com/datadista/datasets/ma
 spain_c19_uci_url = 'https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_uci_long.csv'
 spain_c19_altas_url = 'https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_altas_long.csv'
 spain_c19_hosp_url = 'https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_hospitalizados_long.csv'
+spain_by_province = 'https://code.montera34.com:4443/numeroteca/covid19/-/raw/master/data/original/spain/covid19_spain_provincias.csv'
 usa_c19_url = 'http://covidtracking.com/api/states/daily.csv'
 world_pop_url = 'https://raw.githubusercontent.com/datasets/population/master/data/population.csv'
 usa_states_pop = 'https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.csv'
@@ -16,6 +17,7 @@ force_download = True
 
 
 # df = pd.read_csv(spain_covid19_url)
+# df_spain_cases = dm.load_csv(spain_by_province, download=force_download)
 df_spain_cases = dm.load_csv(spain_c19_casos_url, download=force_download)
 df_spain_deceased = dm.load_csv(spain_c19_muertes_url, download=force_download)
 df_spain_hospitalized = dm.load_csv(spain_c19_hosp_url, download=force_download)
