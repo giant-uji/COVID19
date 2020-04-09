@@ -35,7 +35,7 @@ for day in range(days_before):
     dS = -((beta * St * It)/N) * dt
     dE = ((beta * St * It) / N - (sigma * Et)) * dt
     dI = ((sigma * Et) - (gamma * It)) * dt
-    dR = ((gamma * It-1)) * dt
+    dR = ((gamma * It)) * dt
     St += dS
     Et += dE
     It += dI
@@ -48,7 +48,7 @@ for day in range(days_before, days_total):
     dS = -((beta * St * It)/N) * dt
     dE = ((beta * St * It) / N - (sigma * Et)) * dt
     dI = ((sigma * Et) - (gamma * It)) * dt
-    dR = ((gamma * It-1)) * dt
+    dR = ((gamma * It)) * dt
     St += dS
     Et += dE
     It += dI
